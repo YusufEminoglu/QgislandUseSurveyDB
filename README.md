@@ -19,7 +19,7 @@ Bu depo Bergama ilçesine ait arazi kullanım verilerinin yönetimi ve saha anke
 * **CIZGI (Çizgi Fonksiyonları):** Yol fonksiyonları, genişlik değerleri ve kaplama türleri için değer haritaları içerir. Form görünümünde `is_valid($geometry)` ifadesi ile geçersiz geometriler kırmızı vurgulanır.
 * **ALAN (Arazi Kullanımı):** Alternatif fonksiyon kod listeleri, hâkim yapı türü seçenekleri ve yapı yılı, kat sayısı gibi plan notları sahada girilir. Bu katmanda da `is_valid($geometry)` kontrolü form koşullu biçimlendirmesine bağlıdır.
 
----
+--- 
 
 ## Kurulum ve Hazırlık Adımları
 
