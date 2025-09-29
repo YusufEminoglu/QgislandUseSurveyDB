@@ -10,7 +10,7 @@ Bu doküman, `AraziKullanimDB.gpkg` GeoPackage dosyasında bulunan ana katmanlar
 | Koordinat Referans Sistemi | EPSG:5253 (ITRF96 / TM30 3 Derece) |
 | Çalışma Ölçeği | 1/5000 (ada çizimleri 1/1000 detayında yapılmıştır) |
 | Temel Kullanım | QGIS masaüstü ve QField/Input saha uygulamaları |
-
+ 
 ## Katmanlar
 
 ### 1. `CIZGI`
