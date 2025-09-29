@@ -1,3 +1,4 @@
+ 
 # Arazi Kullanım GeoPackage Veri Sözlüğü
 
 Bu doküman, `AraziKullanimDB.gpkg` GeoPackage dosyasında bulunan ana katmanları, öznitelik alanlarını ve alanların amaçlanan kullanımını özetler. Dosya, Bergama çalışma alanında yapılan arazi kullanım envanterinin dijital kaydıdır ve hem ofis hem de saha ekiplerinin ortak bir veri modeli üzerinden çalışmasını sağlar.
@@ -247,3 +248,6 @@ Katmanlardaki tüm kod listeleri QField form yapılandırması ile birlikte geli
 * `data/` klasöründe `.gitignore` dosyası oluşturarak büyük boyutlu verilerin yanlışlıkla sürüm kontrolüne eklenmesini engelleyin.
 * Form yapılandırmalarında yapılan değişiklikleri belgelemeniz için bu doküman üzerinde ilgili bölümü güncelleyin.
 
+=======
+ 
+ 

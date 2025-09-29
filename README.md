@@ -1,4 +1,4 @@
-# QgislandUseSurveyDB
+ # QgislandUseSurveyDB
 
 Proje, coğrafi bilgi sistemleri (CBS) ortamında arazi kullanım ve örtüsü tiplerinin hızlı ve tutarlı bir şekilde envanterinin çıkarılması için gerekli olan tablo şemalarını, ilişki matrislerini ve veri sözlüğünü sunar. QGIS masaüstü ve QField/Input gibi mobil uygulamalarla saha verisi toplama sürecini optimize etmeyi amaçlar.
 
@@ -26,7 +26,7 @@ Bu depo Bergama ilçesine ait arazi kullanım verilerinin yönetimi ve saha anke
 3. Katmanları inceleyin ve `docs/data_dictionary.md` dosyasındaki tabloyu referans alarak öznitelik alanlarını gözden geçirin. Örneğin `CIZGI` katmanı yol ve hat fonksiyonlarını, genişliklerini ve malzeme durumunu barındırır.
 4. QField Sync eklentisi ile sahaya çıkmadan önce projeyi mobil cihazlara aktarın.
 
-## Tavsiye Edilen Proje Yapısı
+## Tavsiye Edilen Proje Yapısım
 
 ```
 QgislandUseSurveyDB/
@@ -65,3 +65,5 @@ QgislandUseSurveyDB/
 ## Lisans
 
 Bu proje [MIT Lisansı](LICENSE) kapsamında lisanslanmıştır.
+=======
+ 
