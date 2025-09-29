@@ -6,7 +6,7 @@ Proje, coğrafi bilgi sistemleri (CBS) ortamında arazi kullanım ve örtüsü t
 
 Bu depo Bergama ilçesine ait arazi kullanım verilerinin yönetimi ve saha anketi süreçlerinin dijitalleştirilmesi için hazırlanmıştır. Temel veri kaynağı **AraziKullanimDB.gpkg** adlı GeoPackage dosyasıdır. GeoPackage; binalar, yollar, çevre düzeni planı, alan grupları, saha çalışma sınırı ve çalışma ölçeği 1/5000 olan tematik katmanları içerir. Ada poligonlarının çizimi 1/1000 detayında yapılmış, ancak analiz ve plan kararları 1/5000 ölçeği referans alacak şekilde yapılandırılmıştır. Öğrencilerin sahada topladığı güncel ada bilgileri hem çizgisel hem de alansal detaylarıyla kayıt altına alınabilir. Mobil form kurulumları ve QField/Input uyarlamaları yapılmıştır; dosya yerel ortama taşındığında saha veya ofis düzenlemeleri için hazırdır.
 
-## Neden Bu Depo?
+## Özellikler
 
 * **QGIS uyumu:** GeoPackage dosyası doğrudan QGIS'e eklenerek katmanlara erişim sağlanır. Tüm katmanlar EPSG:5253 koordinat referans sistemini kullanır.
 * **QField / Input entegrasyonu:** Arazi anket formları ve alan doğrulama süreçleri için mobil cihazlarda kullanılabilecek optimize edilmiş bir şema sunar.
@@ -18,6 +18,8 @@ Bu depo Bergama ilçesine ait arazi kullanım verilerinin yönetimi ve saha anke
 
 * **CIZGI (Çizgi Fonksiyonları):** Yol fonksiyonları, genişlik değerleri ve kaplama türleri için değer haritaları içerir. Form görünümünde `is_valid($geometry)` ifadesi ile geçersiz geometriler kırmızı vurgulanır.
 * **ALAN (Arazi Kullanımı):** Alternatif fonksiyon kod listeleri, hâkim yapı türü seçenekleri ve yapı yılı, kat sayısı gibi plan notları sahada girilir. Bu katmanda da `is_valid($geometry)` kontrolü form koşullu biçimlendirmesine bağlıdır.
+
+---
 
 ## Kurulum ve Hazırlık Adımları
 
@@ -32,8 +34,9 @@ Aşağıdaki sıralama, GeoPackage'ı indirip QGIS projesini açtıktan sonra ve
 
 > **İpucu:** Proje dosyasını açtığınızda katman grupları, etiket ayarları ve form düzenleri otomatik olarak yüklenir. Böylece QGIS arayüzünde ek bir kurulum gerektirmez.
 
-## Tavsiye Edilen Proje Yapısı
+---
 
+## Tavsiye Edilen Proje Yapısı
 ```
 QgislandUseSurveyDB/
 ├── data/
